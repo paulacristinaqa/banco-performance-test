@@ -43,12 +43,14 @@ Este projeto utiliza as seguintes tecnologias:
 -   **K6** --- ferramenta de testes de carga e performance
 -   **Git / GitHub** para versionamento
 
-  Tecnologia   Função
-  ------------ ------------------------------
-  K6           Execução de testes de carga
-  JavaScript   Escrita dos scripts de teste
-  Git          Versionamento
-  GitHub       Hospedagem do repositório
+
+
+  **Tecnologia**   **Função**
+  ------------     ------------------------------
+  K6                Execução de testes de carga
+  JavaScript        Escrita dos scripts de teste
+  Git               Versionamento
+  GitHub            Hospedagem do repositório
 
 ------------------------------------------------------------------------
 
