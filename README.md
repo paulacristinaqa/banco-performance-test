@@ -45,12 +45,12 @@ Este projeto utiliza as seguintes tecnologias:
 
 
 
-  **Tecnologia**   **Função**
-  ------------     ------------------------------
-  K6                Execução de testes de carga
-  JavaScript        Escrita dos scripts de teste
-  Git               Versionamento
-  GitHub            Hospedagem do repositório
+ Tecnologia   Função
+  ------------ ------------------------------
+  K6           Execução de testes de carga
+  JavaScript   Escrita dos scripts de teste
+  Git          Versionamento
+  GitHub       Hospedagem do repositório
 
 ------------------------------------------------------------------------
 
