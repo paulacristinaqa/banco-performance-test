@@ -41,7 +41,6 @@ Este projeto utiliza as seguintes tecnologias:
 
 -   **JavaScript (ES6)**
 -   **K6** --- ferramenta de testes de carga e performance
--   **Node.js** (para organização do projeto e scripts auxiliares)
 -   **Git / GitHub** para versionamento
 
   Tecnologia   Função
