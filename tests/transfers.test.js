@@ -1,11 +1,12 @@
 import http from 'k6/http';
 import {check, sleep } from 'k6';
-import { obterToken } from '../helpers/autenticacao.js'
+import { obterToken } from '../helpers/autenticacao.js';
+import { pegarBaseURL } from ('../utils/variaveis.js');
 const postTransfers = JSON.parse(open('../fixtures/postTransfers.json'));
 
 export const option = {
-  vus:100,
-  duration:'1000s',
+  vus:1,
+  duration:'30S',
   //  stages: [
   //   { duration: '30s', target: 10 },
   //   { duration: '25s', target: 20 },
@@ -21,8 +22,8 @@ export const option = {
 };
 
 export default function (){
-  const token = obterToken ()
-  const url = 'http://localhost:3000/transferencias';
+  const url = pegarBaseURL () + '/transferencias';
+  const token = obterToken ()  
   console.log(token)
     
       const payload = JSON.stringify(postTransfers);
